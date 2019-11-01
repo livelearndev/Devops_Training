@@ -30,3 +30,7 @@ Compare vs Waterfalls model
 - https://aws.amazon.com/devops/what-is-devops/
 - Devops document in FSOFT
 - Devops for Developers by Michael Hüttermann
+- https://github.com/AcalephStorage/awesome-devops
+- https://martinfowler.com/bliki/DevOpsCulture.html
+- http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/
+- https://en.wikipedia.org/wiki/DevOps
