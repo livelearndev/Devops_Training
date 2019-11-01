@@ -34,3 +34,8 @@ Compare vs Waterfalls model
 - https://martinfowler.com/bliki/DevOpsCulture.html
 - http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/
 - https://en.wikipedia.org/wiki/DevOps
+- https://github.com/jakshi/devops-interview-questions
+- https://github.com/XpiritBV/GDBC2018-Challenges
+- https://github.com/DNXLabs/DevOps-Interview-Questions
+- https://github.com/openshift-labs/devops-guides
+- https://github.com/juliogomez/devops
