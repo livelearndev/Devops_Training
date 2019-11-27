@@ -1,6 +1,6 @@
 # Lab Linux
 ## Table of Contents
-[Basic command](#basic_command)
+[Basic command](#basic_command)  
 [Working with files](#working_with_file)
 <a id="basic_command"> </a> 
 ## Basic commands
@@ -41,8 +41,9 @@ To find out where the program is located, we use:
 | :---------- | :----------                         |
 |ls           | list directory contents of current directory|
 |ls -a        | List all files including hidden files and directories|
-|ls -la| List all files including hidden files and directories by vertical (one file per line, long listing format) |
-<a id='working_with_file'> </a>
+|ls -la       | List all files including hidden files and directories by vertical (one file per line, long listing format) |
+
+<!-- <a id='working_with_file'> </a> -->
 ## Working with files
 ## File permissions
 ## Package management
