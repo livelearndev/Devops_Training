@@ -2,19 +2,21 @@
 ## Table of Contents
 [Basic command](#basic_command)  
 [Working with files](#working_with_file)
+
 <a id="basic_command"> </a> 
+
 ## Basic commands
-### **pwd:** 
+#### **pwd:** 
 Print absolute path to current working directory 
-### **echo:** 
+#### **echo:** 
 Print whatever you provide (variable, string,...)
-### **whoami:** 
+#### **whoami:** 
 Show the user who currently logged in
-### **clear:** 
+#### **clear:** 
 Clear the screen
-### **cal/ date:** 
+#### **cal/ date:** 
 Display: calendar, current date and time
-### **Locating applications:** 
+#### **Locating applications:** 
 Because of multiple types of Linux operating system distribution, application can be installed in various directory, such as: 
     /bin
     /usr/bin
@@ -29,14 +31,14 @@ To find out where the program is located, we use:
     Eg: whereis git
     find: search for files in a directory hierarchy
     Eg: find /home -iname git (find all file git in /home directory, ignore case) 
-### **Accessing Directories**
+#### **Accessing Directories**
 | Syntax      | Result                              |
 | :---------- | ----------                          |
 | cd          | Change to your home directory       |
 | cd ..       | Change to parent directory          |
 | cd -        | Change to previous directory        |
 | cd /        | Changes your current directory to the root (/) directory        |
-### Exploring the filesystem
+#### Exploring the filesystem
 | Syntax      | Result                              |
 | :---------- | :----------                         |
 |ls           | list directory contents of current directory|
