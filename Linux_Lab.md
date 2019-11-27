@@ -27,13 +27,18 @@ To find out where the program is located, we use:
     Eg: find /home -iname git (find all file git in /home directory, ignore case) 
 ### **Accessing Directories**
 | Syntax      | Result                              |
-| :---------- | ----------:                         |
+| :---------- | ----------                          |
 | cd          | Change to your home directory       |
 | cd ..       | Change to parent directory          |
 | cd -        | Change to previous directory        |
 | cd /        | Changes your current directory to the root (/) directory        |
 ### Exploring the filesystem
-ls
+| Syntax      | Result                              |
+| :---------- | :----------                         |
+|ls           | list directory contents of current directory|
+|ls -a        | List all files including hidden files and directories|
+|ls -la| List all files including hidden files and directories by vertical (one file per line, long listing format) |
+
 ## Working with files
 ## File permissions
 ## Package management
