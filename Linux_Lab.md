@@ -1,11 +1,17 @@
 # Lab Linux
 ## Basic commands
-### **pwd:** print absolute path to current working directory 
-### **echo:** print whatever you provide (variable, string,...)
-### **whoami:** show the user who currently logged in
-### **clear:** clear the screen
-### **cal/ date:** display: calendar, current date and time
-### **Locating applications:** because of multiple types of Linux operating system distribution, application can be installed in various directory, such as: 
+### **pwd:** 
+Print absolute path to current working directory 
+### **echo:** 
+Print whatever you provide (variable, string,...)
+### **whoami:** 
+Show the user who currently logged in
+### **clear:** 
+Clear the screen
+### **cal/ date:** 
+Display: calendar, current date and time
+### **Locating applications:** 
+Because of multiple types of Linux operating system distribution, application can be installed in various directory, such as: 
     /bin
     /usr/bin
     /sbin
