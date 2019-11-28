@@ -18,13 +18,14 @@ Clear the screen
 Display: calendar, current date and time
 #### **Locating applications:** 
 Because of multiple types of Linux operating system distribution, application can be installed in various directory, such as: 
+    
     /bin
     /usr/bin
     /sbin
     /usr/sbin
     /opt
 To find out where the program is located, we use:  
-
+    
     which: show the full path of (shell) commands.
     Eg: which git
     whereis: locate the binary, source, and manual page files for a command 
@@ -44,7 +45,15 @@ To find out where the program is located, we use:
 |ls           | list directory contents of current directory|
 |ls -a        | List all files including hidden files and directories|
 |ls -la       | List all files including hidden files and directories by vertical (one file per line, long listing format) |
-
+#### **Hard and Symbolic Links**
+**Hard links:**  many file can point to an i-node. If one file has been modify, all file of that inode has been changed; the capacity of each file is equal  
+**Symbolic links:** look like a shortcut in Windows OS, refer to a direct file. If on symbolic links is modify, the original file no change; the capacity of symbolic is very little  
+To view hard/ symbolic links, we use **ln** command   
+   
+    ln file1.txt file2.txt  
+    ls -li file*  
+    ln -s file1.txt file4.txt  
+    ls -li file*  
 <!-- <a id='working_with_file'> </a> -->
 ## Working with files
 ## File permissions
