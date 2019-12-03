@@ -58,6 +58,11 @@ To view hard/ symbolic links, we use **ln** command
 ## Working with files
 #### Standard streams
 These are three standard streams that are established when a Linux command is executed: **stdin, stdout, stderr**. In computing, a stream is something that can transfer data. In the case of these streams, that data is text.
+These values are always used for stdin, stdout, and stderr:
+
+    0: stdin
+    1: stdout
+    2: stderr
     
     stdin: accept often text as input (from keyboard, files, output of previous command)
     Eg: from keyboard:  
@@ -70,12 +75,26 @@ These are three standard streams that are established when a Linux command is ex
     Eg: echo "text for test" > output. txt
         ls
     stderr: show error on terminal or redirected to an error logging file.
-    Eg: !(Screenshot)[image/linux_streams.png]
-These values are always used for stdin, stdout, and stderr:
-
-    0: stdin
-    1: stdout
-    2: stderr
+    Eg: # cat error.sh
+        #!bin/bash
+        echo "About to try to access a file that doesn't exist"
+        cat bad-filename.txt
+        # bash error.sh > capture.txt
+        cat: bad-filename.txt: No such file or directory
+        # cat capture.txt
+        About to try to access a file that doesn't exist
+        # bash error.sh 2> capture.txt
+        About to try to access a file that doesn't exist
+        # cat capture.txt
+        cat: bad-filename.txt: No such file or directory
+        # 
+#### Search for files
+    find search for files in a directory hierarchy
+    whereis
+    grep
+    locate
+#### Manage file
+#### Compare file
 ## File permissions
 ## Package management
 ## System info
