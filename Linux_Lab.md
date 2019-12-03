@@ -60,13 +60,22 @@ To view hard/ symbolic links, we use **ln** command
 These are three standard streams that are established when a Linux command is executed: **stdin, stdout, stderr**. In computing, a stream is something that can transfer data. In the case of these streams, that data is text.
     
     stdin: accept often text as input (from keyboard, files, output of previous command)
-    Eg: from keyboard             : echo test
+    Eg: from keyboard:  
         do_something < input_file : sh < test.sh
         output of previous command: command1 | command2 
                                     ps -xau | grep java
                                     ls | cat
                                     echo "hello there" | sed "s/hello/hi/" | sed "s/there/robots/"
-    stdout: 
+    stdout: print output on your terminal/ export to a file...
+    Eg: echo "text for test" > output. txt
+        ls
+    stderr: show error on terminal or redirected to an error logging file.
+    Eg: !(Screenshot)[image/linux_streams.png]
+These values are always used for stdin, stdout, and stderr:
+
+    0: stdin
+    1: stdout
+    2: stderr
 ## File permissions
 ## Package management
 ## System info
