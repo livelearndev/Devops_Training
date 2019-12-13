@@ -94,11 +94,25 @@ These values are always used for stdin, stdout, and stderr:
     grep
     locate
 #### Manage file
+    thêm, sửa, xóa, phân quyền truy cập
 #### Compare file
+    compare về nội dung, compare địa chỉ hash, hard/symbolic link
 ## File permissions
+    đọc
+    ghi
+    thực thi
 ## Package management
+    install, remove, update, upgrade
 ## System info
+    OS, capacity, firewall...
 ## Networking
+    http, https
+    NAT, bridge
+    star, ring
+    phân chia dải mạng, subnet, các công thức
 ## Iptables
+    IN
+    OUT
 ## File System
-
+    i-node
+    tree
